@@ -5,6 +5,8 @@
   CSC 372-01
 
   This is the index.html page for my second assignment where we create a mockup webpage.
+
+  As for the extra features I have implemented the favicon and the custom bullet points.
 -->
 
 <html lang="en">
@@ -12,6 +14,7 @@
     <head>
         <title>Travis' Travel Blog</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="list_icon.png">
     </head>
 
     <body>
@@ -23,18 +26,18 @@
         </div>
       </header>
 
-      <div style="text-align: center";>
-        <h2 >
+      <div>
+        <h2 id="page_title">
             Travelogue: Nagoya, Japan
         </h2>
       </div>
 
       <div>
-        <h3>
+        <h3 class="page_headings">
             Overview:
         </h3>
 
-        <p>
+        <p class="page_text">
             Overall, Nagoya has been my favorite place I have ever traveled ever. The city itself is absolutely
             gorgeous with amazing attractions. Outside of this, the suburban areas nearby are just as entertaining
             and can often even be more enjoyable. With areas such as the Ghibli park or NUFS nearby, it's easy to see
@@ -43,32 +46,74 @@
       </div>
 
       
-      
-
       <div>
-        <h3>
+        <h3 class="page_headings">
             Must-see Spots:
         </h3>
 
-        <p>
-            Osu
-        </p>
+        <ol class="page_text">
+          <li>
+            Studio Ghilbi Park
+          </li>
+
+          <li>
+            Osu Shopping District
+          </li>
+
+          <li>
+            Sakae Underground Mall
+          </li>
+
+          <li>
+            Nagoya Castle
+          </li>
+
+          <li>
+            Legoland Japan
+          </li>
+        </ol>
+
       </div>
 
       <div>
-        <h3>
+        <h3 class="page_headings">
             Visitor Tips:
         </h3>
 
-        <p>
-            :3
-        </p>
+        <ul class="page_text">
+          <li>
+            Be quiet and polite on the trains.
+          </li>
+          <li>
+            Always say thank you and goodbye.
+          </li>
+          <li>
+            Do not tip! It's considered rude.
+          </li>
+          <li>
+            Walk on the opposite side of the sidewalk.
+          </li>
+
+        </ul>
       </div>
+
+      <div>
+        <img src="destination1.jpg" alt="Nagoya Castle in City" width="750">
+      </div>
+
+      <article>
+        <h2 class="page_headings">
+          Testimonials:
+        </h2>
+
+        <p id="testimonials">
+          Joanne said: "<span class="bold_text">Thanks</span> for the reccommandation Travis! 
+          Nagoya was <span class="bold_text">stunning!</span>"
+        </p>
+      </article>
 
 
     </body>
-    
-
     
 
 

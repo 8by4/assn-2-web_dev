@@ -1,11 +1,44 @@
 .topbar{
-    background-color: darkblue;
-    margin-top: 0%;
-    padding: 5%;
     text-align: center;
     color: aliceblue;
 }
 
 body{
-    background-color: lightblue;
+    background-color: white;
+}
+#page_title{
+    font-size:22pt;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.page_headings{
+    text-align: left;
+    text-decoration: underline;
+    font-size:18pt;
+}
+
+.page_text{
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia;
+}
+
+#testimonials{
+    color: #FFFFA8;
+    font-style: italic;
+    text-indent: 5%;
+}
+
+#bold_text{
+    font-weight: bold;
+}
+
+a{
+    color: #A4A400;
+}
+
+ul{
+    list-style-image: url('list_icon.png');
 }
